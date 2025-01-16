@@ -13,7 +13,7 @@ for (let i = 0; i < emojis.length; i++) {
           document.querySelectorAll('.boxopen')[0].classList.add('boxmatch')
           document.querySelectorAll('.boxopen')[1].classList.add('boxmatch')
 
-        if (document.querySelectorAll ('.boxMatch').length === emojis.length){
+        if (document.querySelectorAll ('.boxmatch').length === emojis.length){
             alert('Congratulaitions🎈🎉 Winner')
           }
         } else {
